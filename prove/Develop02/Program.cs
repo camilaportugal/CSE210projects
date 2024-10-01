@@ -1,5 +1,6 @@
 using System;
 
+// I added a new method to count the entries in a file.
 class Program
 {
     static void Main(string[] args)
