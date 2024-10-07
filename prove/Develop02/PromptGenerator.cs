@@ -11,8 +11,8 @@ public class PromptGenerator
 
     public string GetRandomPrompt()
     {
-        Random randomGenerator = new Random();
-        int index = randomGenerator.Next(_prompts.Count);
-        return _prompts[index];
+        Random randomGenerator = new Random(); // Aquí cree una instancia para el Random Class 
+        int index = randomGenerator.Next(_prompts.Count); // aquí la variable index, será la instancia y el '.Next(_prompts.Count)' significa que tendrá el siguiente int u oración en este caso en el rango de Longitud de la lista _prompts, '_prompts.Count'
+        return _prompts[index]; //devuelve la pregunta
     }
 }
