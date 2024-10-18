@@ -15,7 +15,7 @@ public class Order
 
     public int GetTotalCost() 
     {
-        int productTotal = 0; +
+        int productTotal = 0; 
 
         foreach(Product product in _productsList)
         {
