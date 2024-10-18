@@ -15,7 +15,7 @@ class Program
 
         v2.AddComment(new Comment("Mayra", "Super clear and easy to follow!"));
         v2.AddComment(new Comment("Adrian", "This saved me hours of confusion, great job."));
-        v2.AddComment(new Comment("Noah", "I love this recipe, it turned out perfect!"));
+        v2.AddComment(new Comment("Noah", "I love this tutorial!"));
         
         v3.AddComment(new Comment("Carlos", "Great explanation of HTML tags! Now I understand how to structure a webpage."));
         v3.AddComment(new Comment("Natividad", "Can you make a video about forms in HTML next?"));
