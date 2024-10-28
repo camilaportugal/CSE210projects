@@ -17,5 +17,6 @@ public abstract class Shape
         _color = color; 
     }
 
+    //This is an abstract class 
     public abstract double GetArea(); 
 }
