@@ -4,6 +4,7 @@ class Program
 {
     static void Main(string[] args)
     { 
+        Console.WriteLine();
         DateTime theCurrentTime = DateTime.Now;
         string date = DateTime.Now.ToString("dd MMM yyyy");
 
@@ -30,7 +31,7 @@ class Program
         foreach (Activity activity in activities)
         {
             Console.WriteLine(activity.GetSummary());
-            
         }
+        Console.WriteLine();
     }
 }
